@@ -163,3 +163,4 @@ resources
 venv
 .DS_Store
 __pycache__
+heatmap.png
