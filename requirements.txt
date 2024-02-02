@@ -5,3 +5,6 @@ matplotlib
 scikit-learn
 flwr
 ray
+xgboost
+imblearn
+scipy
