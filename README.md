@@ -5,9 +5,6 @@
 ### Summary
 This project deals with a synthesised Adult Census Income dataset and aims to develop a Proof of Concept (PoC) that identifies the financial health of individuals aged 17 to 90 years. The project includes phases such as data understanding, model comparison and the implementation of a proof of concept with federated learning.
 
-### Columns
-...
-
 ### Understanding the data
 The Adult Census Income dataset contains a variety of characteristics that provide information about individuals, their occupational characteristics, education level, marital status and more. The goal is to use this data to predict the financial health of individuals.
 
@@ -25,10 +22,12 @@ To address data protection concerns, a proof of concept for federated learning w
 The implementation includes the configuration of federated learning platforms, the training of models on decentralised nodes and the merging of the aggregated models into a final prediction unit.
 
 ## Run Code:
-1. Execute the **preprocessing.ipynb** to preprocess the data + feature engineering --> please create the folder data
-2. Execute the **data_findings.ipynb** to understand the data
-3. Execute the **model-comparison-poc.ipynb** to try different models --> please create the folder models
-4. Execute the **nn-fml-poc.ipynb** to simulate the FML 
+1. Execute the **00_preprocessing.ipynb** to preprocess the data + feature engineering --> please create the folder data
+2. Execute the **01_data_findings.ipynb** to understand the data
+3. Execute the **02_model-comparison.ipynb** to try different models --> please create the folder models if you run it (it is better not to let it run it will take a very long time)
+4. Execute the **02a_comparsans_fresh.ipynb** - to find the best SMOTE.
+5. Execute the **02b_xgboost_eli5.ipynb** - to make a XGBoost Classifier with ELI5.
+6. Execute the **03_nn-fml-poc.ipynb** to simulate the FML 
 
 
 
